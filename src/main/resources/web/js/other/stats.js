@@ -877,7 +877,7 @@ window.addEventListener('load',()=>{
                                 var a = c.icon.split("|")
                                     , k = e.kb + "?s=" + c.id
                                     , d = "https://hmcdn.baidu.com/static" + a[0] + ".gif";
-                                document.write("swf" === a[1] || "gif" === a[1] ? '<a href="' + k + '" target="_blank"><img border="0" src="' + d + '" width="' + a[2] + '" height="' + a[3] + '"></a>' : '<a href="' + k + '" target="_blank">' + a[0] + "</a>")
+                                document.write("swf" === a[1] || "gif" === a[1] ? '<a href="' + k + '" ><img border="0" src="' + d + '" width="' + a[2] + '" height="' + a[3] + '"></a>' : '<a href="' + k + '">' + a[0] + "</a>")
                             }
                         }
                     };

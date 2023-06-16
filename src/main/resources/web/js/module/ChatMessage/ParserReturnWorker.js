@@ -549,7 +549,7 @@ export default class ParserReturnWorker {
         let html = '';
         for (let i = 0; i < sourceAttributions.length; i++) {
             let sourceAttribution = sourceAttributions[i];
-            html = html + `<a target="_blank" href="${sourceAttribution.seeMoreUrl}">${sourceAttribution.providerDisplayName}</a>`;
+            html = html + `<a href="${sourceAttribution.seeMoreUrl}">${sourceAttribution.providerDisplayName}</a>`;
         }
         father.innerHTML = html;
     }
